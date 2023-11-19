@@ -1,5 +1,5 @@
 # Double-DQN
-Implementation of Double DQN
+Implementation of Double DQN with Dueling DQN
 
 # Requirements
 gym == 0.17.3
@@ -21,13 +21,13 @@ torch == 2.0.1
 
 
 # Description
-Double DQN is a deep Q neural model created through the works of regular DQN in order for the Deep Q Network to have a copy of its own network called a target network, this implementation allows us to converge slowly to an optimal solution without having the network generalizing to noise and having a target network with its own copy of the original network allows us to optimize slowly. We take into consideration the help of both the value function and the advantage function in order to have a more stable q network with higher prediction on state and action pairs. Rewards are used to compared and find the loss of the DQN in order to get to the most optimal path in the game that will maximize the rewards that the agent can obtain.
+Double DQN is a deep Q neural model created through the works of regular DQN in order for the Deep Q Network to have a copy of its own network called a target network, this implementation allows us to converge slowly to an optimal solution without having the network generalizing to noise and having a target network with its own copy of the original network allows us to optimize slowly. We also use Dueling DQN to take into consideration the help of both the value function and the advantage function in order to have a more stable q network with higher prediction on state and action pairs. Rewards are used to compared and find the loss of the DQN in order to get to the most optimal path in the game that will maximize the rewards that the agent can obtain.
 
 # Game
 Flappy Bird
 
 # Architecture
-Double DQN
+Double DQN with Dueling DQN
 
 # optimizer
 AdamW
