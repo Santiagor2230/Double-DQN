@@ -1,4 +1,4 @@
-# Double-DQN
+# Dueling-Double-DQN
 Implementation of Double DQN with Dueling DQN
 
 # Requirements
